@@ -21,3 +21,6 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.main-parent section {
+  border: 2px solid blue;
+}
