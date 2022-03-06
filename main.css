@@ -1,0 +1,23 @@
+.parent {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+header {
+  border: 2px solid black;
+  background-color: darkcyan;
+}
+main {
+  border: 2px solid black;
+  background-color: salmon;
+}
+footer {
+  border: 2px solid black;
+  background-color: darkgoldenrod;
+}
+.links li {
+  display: inline;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
